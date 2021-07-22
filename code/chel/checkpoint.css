@@ -1,0 +1,151 @@
+
+.dropbtn {
+    background-color:white;
+    color: #747474;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+    
+
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    
+
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    
+    
+    .dropdown-content a:hover 
+    {background-color: #f1f1f1}
+    
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    
+    
+    .dropdown:hover .dropbtn {
+    color:#00b39b;
+    }
+    .dropdown-content ul {
+    padding-left:0%;
+    list-style-type: none;
+    }
+    .main-menu{
+      justify-content: flex-end;
+      margin-right: 10%;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      margin-top: -30px;
+    }
+    li{
+      margin-right: 10%;
+    }
+    
+    
+    
+    .b{
+      text-decoration: none;
+      background-color:white;
+    color: #747474;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+    .b:hover{
+      color:#00b39b;
+    }
+    .logo-docplanner{
+      width: 268px;
+      height: 33px;
+    }
+    .main-header{
+      margin-top: -70px;
+      margin-left: 300px;
+    }
+    lead-logo {
+      margin: 2.0625rem auto 3.75rem;
+    }
+    .section_inner{
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .lead__logo {
+      display: block;
+      margin: 0 auto;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .lead h1 {
+      text-align: center;
+      font-style:oblique;
+      font-weight:lighter
+    }
+    h1{
+      font-size: 2.125rem;
+        color: #00b39b;
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+    
+    grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 100px);
+      grid-gap: 10px;
+    }
+    
+    .grid_item:first-child {
+      grid-column: 1 /2; /* span from grid column line 1 to 3 (i.e., span 2 columns) */
+      grid-row: 1 / 2;    /* same concept, but for rows */
+    }
+    
+    .grid_item {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5em;
+      position: absolute;
+      bottom: 0;
+      left: 50;
+      
+    }
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 50px;
+      margin-inline-end: 0px;
+      
+    
+    }
+    
+    .container{
+      height: 200px;
+                width: 200px;
+                margin: 0px;
+                padding: 20px;
+      width:1000;
+    }
